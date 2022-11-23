@@ -1,0 +1,43 @@
+.cardContainer{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    box-shadow: 3px 3px 7px black;
+    display: flex;
+    flex-direction: column;
+}
+.imgRegion{
+    background-color: red;
+    object-fit: cover;
+    height: 250px;
+    padding: 0px;
+}
+.image{
+    position: relative;
+    background-color: white;
+    height: 250px;
+}
+
+.imgRegion > p{
+    position: absolute;
+    background: white;
+    top: 0;
+    padding: 3px;
+    opacity: 0.8;
+    color: red;
+   font-weight: 900;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+.cardDetails{
+    background-color: #024d4d;
+    color: white;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imagepoke{
+    height: 250px;
+
+}

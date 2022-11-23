@@ -1,0 +1,8 @@
+.PokeDisplay{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1rem;
+}
